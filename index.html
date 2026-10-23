@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Golden Crumb Bakery & Catering website concept by Rele Codes. A premium website demo for small businesses."
+  >
+
+  <meta name="theme-color" content="#40291f">
+
+  <title>Golden Crumb | Bakery & Catering</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+
+      <a href="#home" class="logo">Golden Crumb<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-controls="navLinks"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Enquire Now</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+
+        <p class="eyebrow">FRESHLY MADE, BEAUTIFULLY SERVED</p>
+
+        <h1>A little sweetness<br>goes a long way.</h1>
+
+        <p class="hero-description">
+          From beautiful celebration cakes to delicious catering
+          spreads, there's something special waiting for you.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+          <a href="#story" class="btn btn-outline">Our Story</a>
+        </div>
+
+        <p class="demo-label">
+          WEBSITE CONCEPT · DESIGNED BY RELE CODES
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- Brand promises -->
+    <section class="promise-strip">
+      <div class="container promise-grid">
+
+        <div>
+          <span>01</span>
+          <p>Made with love</p>
+        </div>
+
+        <div>
+          <span>02</span>
+          <p>Fresh ingredients</p>
+        </div>
+
+        <div>
+          <span>03</span>
+          <p>Made for sharing</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Menu -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">A TASTE OF SOMETHING SPECIAL</p>
+          <h2>Our Favourites</h2>
+          <p>
+            A little look at the delicious possibilities.
+            These sample products and prices are for demonstration.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="menu-card">
+            <img
+              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85"
+              alt="Beautiful layered celebration cake"
+              loading="lazy"
+            >
+            <div class="menu-card-content">
+              <p class="card-category">CELEBRATIONS</p>
+              <h3>Celebration Cakes</h3>
+              <p>Sweet centrepieces for your most special moments.</p>
+              <div class="menu-card-bottom">
+                <span>From R350</span>
+                <button type="button" class="text-link" data-product="Celebration Cakes">
+                  Enquire ↗
+                </button>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="menu-card">
+            <img
+              src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=85"
+              alt="Decorated cupcakes"
+              loading="lazy"
+            >
+            <div class="menu-card-content">
+              <p class="card-category">LITTLE TREATS</p>
+              <h3>Gourmet Cupcakes</h3>
+              <p>Delightful little treats for every occasion.</p>
+              <div class="menu-card-bottom">
+                <span>From R120 / dozen</span>
+                <button type="button" class="text-link" data-product="Gourmet Cupcakes">
+                  Enquire ↗
+                </button>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="menu-card">
+            <img
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
+              alt="Freshly baked golden pastries and bread"
+              loading="lazy"
+            >
+            <div class="menu-card-content">
+              <p class="card-category">FRESH FROM THE OVEN</p>
+              <h3>Fresh Pastries</h3>
+              <p>Golden, flaky goodness for your morning moments.</p>
+              <div class="menu-card-bottom">
+                <span>From R15</span>
+                <button type="button" class="text-link" data-product="Fresh Pastries">
+                  Enquire ↗
+                </button>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="menu-card">
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85"
+              alt="A delicious selection of food for sharing"
+              loading="lazy"
+            >
+            <div class="menu-card-content">
+              <p class="card-category">GATHER TOGETHER</p>
+              <h3>Catering Platters</h3>
+              <p>Thoughtfully presented spreads for your guests.</p>
+              <div class="menu-card-bottom">
+                <span>From R450</span>
+                <button type="button" class="text-link" data-product="Catering Platters">
+                  Enquire ↗
+                </button>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="menu-card">
+            <img
+              src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=85"
+              alt="Freshly baked homemade cookies"
+              loading="lazy"
+            >
+            <div class="menu-card-content">
+              <p class="card-category">SOMETHING SWEET</p>
+              <h3>Homemade Cookies</h3>
+              <p>Comforting, delicious bites made for sharing.</p>
+              <div class="menu-card-bottom">
+                <span>From R80 / box</span>
+                <button type="button" class="text-link" data-product="Homemade Cookies">
+                  Enquire ↗
+                </button>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="menu-card">
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85"
+              alt="A prepared meal ready to serve"
+              loading="lazy"
+            >
+            <div class="menu-card-content">
+              <p class="card-category">MADE FOR YOUR DAY</p>
+              <h3>Lunch Boxes</h3>
+              <p>Convenient, satisfying options for busy days.</p>
+              <div class="menu-card-bottom">
+                <span>From R65</span>
+                <button type="button" class="text-link" data-product="Lunch Boxes">
+                  Enquire ↗
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="sample-note">
+          Sample menu for demonstration purposes. Prices and products are illustrative.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- Story -->
+    <section class="section story-section" id="story">
+      <div class="container story-grid">
+
+        <div class="story-image">
+          <img
+            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1000&q=85"
+            alt="Beautifully arranged freshly baked pastries"
+            loading="lazy"
+          >
+        </div>
+
+        <div class="story-content">
+          <p class="eyebrow">A LITTLE ABOUT US</p>
+
+          <h2>Good food brings people together.</h2>
+
+          <p>
+            Imagine a bakery where every detail feels thoughtful,
+            every gathering feels special, and every treat brings
+            a little joy.
+          </p>
+
+          <p>
+            Golden Crumb is a fictional bakery concept created to
+            demonstrate how a small business can present its brand
+            online with warmth, elegance and personality.
+          </p>
+
+          <a href="#contact" class="btn btn-primary">Let's Talk Treats</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Demo enquiry form -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-intro">
+          <p class="eyebrow">LET'S MAKE IT SPECIAL</p>
+
+          <h2>Something delicious starts here.</h2>
+
+          <p>
+            Explore how a customer enquiry form could look on a
+            professional business website. This form is for demo
+            purposes only and does not send or save information.
+          </p>
+
+          <div class="contact-detail">
+            <span>THE CONCEPT</span>
+            <p>Bakery, celebrations and catering</p>
+          </div>
+
+          <div class="contact-detail">
+            <span>WEBSITE DESIGN</span>
+            <p>By Rele Codes</p>
+          </div>
+        </div>
+
+
+        <form class="enquiry-form" id="enquiryForm">
+
+          <h3>Enquiry preview</h3>
+
+          <p class="form-intro">
+            Try the form to preview the customer experience.
+          </p>
+
+          <div class="form-field">
+            <label for="customerName">Your name</label>
+            <input
+              type="text"
+              id="customerName"
+              name="customerName"
+              placeholder="e.g. Lerato"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="customerPhone">Phone number (optional)</label>
+            <input
+              type="tel"
+              id="customerPhone"
+              name="customerPhone"
+              placeholder="Your phone number"
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="eventType">What is the occasion?</label>
+            <select id="eventType" name="eventType" required>
+              <option value="">Choose an occasion</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Corporate event">Corporate event</option>
+              <option value="Family gathering">Family gathering</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="product">What are you interested in?</label>
+            <select id="product" name="product" required>
+              <option value="">Choose a product</option>
+              <option value="Celebration Cakes">Celebration Cakes</option>
+              <option value="Gourmet Cupcakes">Gourmet Cupcakes</option>
+              <option value="Fresh Pastries">Fresh Pastries</option>
+              <option value="Catering Platters">Catering Platters</option>
+              <option value="Homemade Cookies">Homemade Cookies</option>
+              <option value="Lunch Boxes">Lunch Boxes</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="eventDate">Event date (optional)</label>
+            <input type="date" id="eventDate" name="eventDate">
+          </div>
+
+          <div class="form-field">
+            <label for="details">Additional details (optional)</label>
+            <textarea
+              id="details"
+              name="details"
+              rows="4"
+              placeholder="Tell us a little about your idea..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">
+            Preview Enquiry
+          </button>
+
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+
+          <p class="privacy-note">
+            Demo only. Do not enter real personal information.
+            Nothing is sent or stored.
+          </p>
+
+        </form>
+
+      </div>
+    </section>
+
+
+    <!-- Rele Codes client CTA -->
+    <section class="closing-cta" id="website-demo">
+      <div class="container closing-cta-content">
+
+        <p class="eyebrow">YOUR BUSINESS, YOUR BRAND</p>
+
+        <h2>Imagine this website for your business.</h2>
+
+        <p>
+          From bakeries and catering businesses to salons,
+          boutiques and small businesses, your brand deserves
+          a professional online presence.
+        </p>
+
+        <a
+          class="btn btn-primary"
+          href="https://relecodes.github.io/rele-codes-portfolio/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore Rele Codes
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <a href="#home" class="footer-brand">Golden Crumb.</a>
+
+      <p>A bakery website concept designed to inspire.</p>
+
+      <p class="footer-credit">
+        Website concept by
+        <a
+          href="https://relecodes.github.io/rele-codes-portfolio/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Rele Codes
+        </a>
+      </p>
+
+      <p class="footer-copy">
+        &copy; <span id="footerYear"></span> Golden Crumb.
+        Demo concept.
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
